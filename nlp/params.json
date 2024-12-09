@@ -1,0 +1,17 @@
+{
+  "learning_rate": 5e-5,
+  "batch_size": 5,
+  "num_epochs": 10,
+
+  "lstm_hidden_dim": 50,
+  "embedding_dim": 64,
+  "embedding": "uncased",
+  "model": "bert",
+  "is_all_scenarios": true,
+  "is_opt_checkpoint": true,
+  "pre_trained_tar": null,
+  "nhead": 4,
+  "num_layers": 1,
+
+  "save_summary_steps": 100
+}
